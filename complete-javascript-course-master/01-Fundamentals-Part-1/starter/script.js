@@ -43,3 +43,22 @@
 // language = hungarian;
 // const birthYear = 1984;
 
+// Basic Operators
+
+// const now = 2037;
+// const ageJonas = now - 1991;
+// const ageSarah = now - 2018;
+// console.log(ageJonas, ageSarah);
+
+// console.log(ageJonas * 2, ageJonas / 2);
+
+// const firstName = "Jonas";
+// const lastName = "Schmidt";
+// console.log(firstName + " " + lastName);
+
+// x = 10 + 5;
+// x += 10;
+// x++ // x = x + 1
+// console.log(x);
+
+
