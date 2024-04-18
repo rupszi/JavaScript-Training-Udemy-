@@ -19,3 +19,21 @@ let population = "9.8 million";
 console.log(continent);
 console.log(country);
 console.log(population);
+
+
+// Data Types
+
+let javascriptIsFun = true;
+
+console.log(typeof javascriptIsFun);
+
+let year;
+console.log(year);
+year = 1991;
+console.log(typeof year);
+
+// DataTypes assignment
+
+let isIsland = true
+let language;
+console.log(population, country, isIsland, language);
