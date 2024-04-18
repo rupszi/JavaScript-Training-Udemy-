@@ -7,3 +7,15 @@ console.log(23);
 
 let firstName = "Jonas"
 console.log(firstName);
+console.log(firstName);
+console.log(firstName);
+
+// Assignment for the Values and Variables lecture
+
+let country = "Hungary";
+let continent = "Europe";
+let population = "9.8 million";
+
+console.log(continent);
+console.log(country);
+console.log(population);
