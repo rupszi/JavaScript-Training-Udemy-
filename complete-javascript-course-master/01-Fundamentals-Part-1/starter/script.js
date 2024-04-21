@@ -114,10 +114,17 @@
 
 // type conversion
 
-const inputYear = '1971';
-console.log(Number(inputYear));
-console.log(inputYear + 18);
+// const inputYear = '1971';
+// console.log(Number(inputYear));
+// console.log(inputYear + 18);
 
-console.log(Number("jonas"));
-console.log(typeof NaN);
-console.log(String(23), 23);
+// console.log(Number("jonas"));
+// console.log(typeof NaN);
+// console.log(String(23), 23);
+
+
+// type coercion
+
+console.log("I am " + 23 + " old");
+console.log("23" - 10 - "3");
+console.log("23" * "3");
