@@ -91,22 +91,22 @@
 
 // Taking decisions, if/else statements
 
-const age = 15;
+// const age = 15;
 
-if (age >= 18) {
-    console.log("Sarah can start driving licence. 🚗");
-} else {
-    const ageLeft = 18 - age;
-    console.log(`Sraha is too young, wait an another ${ageLeft} years :)`);
-}
+// if (age >= 18) {
+//     console.log("Sarah can start driving licence. 🚗");
+// } else {
+//     const ageLeft = 18 - age;
+//     console.log(`Sraha is too young, wait an another ${ageLeft} years :)`);
+// }
 
-const birthYear = 1991;
-let century;
+// const birthYear = 1991;
+// let century;
 
-if (birthYear <= 2000) {
-    century = 20;
-} else {
-    century = 21;
-}
+// if (birthYear <= 2000) {
+//     century = 20;
+// } else {
+//     century = 21;
+// }
 
-console.log(century);
+// console.log(century);
