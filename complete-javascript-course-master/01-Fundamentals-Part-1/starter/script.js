@@ -78,5 +78,14 @@
 
 const firstName = "Jonas";
 const job = "teacher";
+const birthYear = 1992;
+const currentYear = 2024;
 
+const jonasNew = `I'm ${firstName}, I'm a ${currentYear - birthYear} years old ${job}.`;
+
+console.log(jonasNew);
+
+const jonas = "I'm " + firstName + "," + " I'm a " + job + ", and I'm " + (currentYear - birthYear) + " years old.";
+
+console.log(jonas);
 
