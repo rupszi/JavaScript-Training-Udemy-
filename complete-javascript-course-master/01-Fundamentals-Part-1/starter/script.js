@@ -125,6 +125,22 @@
 
 // type coercion
 
-console.log("I am " + 23 + " old");
-console.log("23" - 10 - "3");
-console.log("23" * "3");
+// console.log("I am " + 23 + " old");
+// console.log("23" - 10 - "3");
+// console.log("23" * "3");
+
+// 5 falsy values: 0 '' undefined NaN null
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("Jonas"));
+console.log(Boolean({}));
+
+const money = 0;
+if (money) {
+    console.log("Don't spend it all ;)");
+} else {
+    console.log("You should get a job!")
+}
+
+
