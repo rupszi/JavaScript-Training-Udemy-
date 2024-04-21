@@ -62,3 +62,21 @@
 // console.log(x);
 
 
+// Coding Challenge 1
+
+// let bodymass_Mark = 78;
+// let bodymass_John = 92;
+// let height_Mark = 1.69;
+// let height_John = 1.95;
+
+// let bmi_Mark = (bodymass_Mark / (height_Mark ** 2));
+// let bmi_John = (bodymass_John / (height_John ** 2));
+// let markHigherBMI = bmi_Mark > bmi_John;
+// console.log(markHigherBMI);
+// console.log("BMI Mark= " + bmi_Mark);
+// console.log("BMI John= " + bmi_John);
+
+const firstName = "Jonas";
+const job = "teacher";
+
+
