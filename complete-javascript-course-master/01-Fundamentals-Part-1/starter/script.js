@@ -76,16 +76,19 @@
 // console.log("BMI Mark= " + bmi_Mark);
 // console.log("BMI John= " + bmi_John);
 
-const firstName = "Jonas";
-const job = "teacher";
-const birthYear = 1992;
-const currentYear = 2024;
+// const firstName = "Jonas";
+// const job = "teacher";
+// const birthYear = 1992;
+// const currentYear = 2024;
 
-const jonasNew = `I'm ${firstName}, I'm a ${currentYear - birthYear} years old ${job}.`;
+// const jonasNew = `I'm ${firstName}, I'm a ${currentYear - birthYear} years old ${job}.`;
 
-console.log(jonasNew);
+// console.log(jonasNew);
 
-const jonas = "I'm " + firstName + "," + " I'm a " + job + ", and I'm " + (currentYear - birthYear) + " years old.";
+// const jonas = "I'm " + firstName + "," + " I'm a " + job + ", and I'm " + (currentYear - birthYear) + " years old.";
 
-console.log(jonas);
+// console.log(jonas);
+
+// Taking decisions, if/else statements
+
 
