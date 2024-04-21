@@ -91,7 +91,7 @@
 
 // Taking decisions, if/else statements
 
-const age = 19;
+const age = 15;
 const isOldEnough = age >= 18;
 
 if (isOldEnough) {
