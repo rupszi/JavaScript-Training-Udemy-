@@ -110,3 +110,14 @@
 // }
 
 // console.log(century);
+
+
+// type conversion
+
+const inputYear = '1971';
+console.log(Number(inputYear));
+console.log(inputYear + 18);
+
+console.log(Number("jonas"));
+console.log(typeof NaN);
+console.log(String(23), 23);
