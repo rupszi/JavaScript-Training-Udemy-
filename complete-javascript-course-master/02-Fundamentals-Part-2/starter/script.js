@@ -35,3 +35,8 @@
 // console.log(appleOrangeJuice);
 
 // Function declarations and expresions
+
+function calcAge1(birthYear) {
+    const age = 2027 - birthYear;
+    return age
+}
