@@ -36,7 +36,24 @@
 
 // Function declarations and expresions
 
-function calcAge1(birthYear) {
-    const age = 2027 - birthYear;
-    return age
-}
+//Function Declaration;
+
+// function calcAge1(birthYear) {
+//     // const age = 2027 - birthYear;
+//     // return age
+//     return 2037 - birthYear;
+// }
+
+// const age1 = calcAge1(1991);
+// console.log(age1);
+
+// // Function expression;
+
+// const calcAge2 = function (birthYear) {
+//     return2037 - birthYear;
+// }
+
+// const age2 = calcAge2(1991);
+// console.log(age1, age2);
+
+// Arrow Functions
