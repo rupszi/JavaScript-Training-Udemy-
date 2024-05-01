@@ -102,9 +102,7 @@
 //         console.log(`${firstName} has already retired.`)
 //         return -1;
 //     }
+// }
 
-
-}
-
-console.log(yearsUntilRetirement(1991, 'John'));
-console.log(yearsUntilRetirement(1970, 'Mike'));
+// console.log(yearsUntilRetirement(1991, 'John'));
+// console.log(yearsUntilRetirement(1970, 'Mike'));
