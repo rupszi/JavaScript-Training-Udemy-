@@ -106,3 +106,8 @@
 
 // console.log(yearsUntilRetirement(1991, 'John'));
 // console.log(yearsUntilRetirement(1970, 'Mike'));
+
+// DATA STRUCTURES
+
+// Arrays
+
