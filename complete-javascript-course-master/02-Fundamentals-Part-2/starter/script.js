@@ -119,7 +119,7 @@ const friend3 = 'Peter';
 const friends = ['Michael', 'Steven', 'Peter'];
 console.log(friends);
 
-const years = new Array(1991, 1984, 2008, 2020);
+const y = new Array(1991, 1984, 2008, 2020);
 
 console.log(friends[2]);
 console.log(friends.length);
@@ -128,6 +128,15 @@ console.log(friends[friends.length - 1]);
 friends[2] = 'Jay';
 console.log(friends);
 // friends = ['Bob', 'Alice'];
+const firstName = 'Jonas'
 
+const jonas = [firstName, 'Schmedtmann', 2037 - 1991, 'teacher', friends];
 
+console.log(jonas);
 
+// Exercise
+const calcAge = function (birthYear) {
+    return 2037 - birthYear;
+}
+const years = [1990, 1967, 2002, 2010, 2018];
+console.log(calcAge(years));
