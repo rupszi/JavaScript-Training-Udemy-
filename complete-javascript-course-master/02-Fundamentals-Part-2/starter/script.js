@@ -109,35 +109,55 @@
 
 // DATA STRUCTURES
 
-// Arrays
+// // Arrays
 
-const friend1 = 'Michael';
-const friend2 = 'Steven';
-const friend3 = 'Peter';
+// const friend1 = 'Michael';
+// const friend2 = 'Steven';
+// const friend3 = 'Peter';
 
-// Arrays Literal Syntax
+// // Arrays Literal Syntax
+// const friends = ['Michael', 'Steven', 'Peter'];
+// console.log(friends);
+
+// const y = new Array(1991, 1984, 2008, 2020);
+
+// console.log(friends[2]);
+// console.log(friends.length);
+// console.log(friends[friends.length - 1]);
+
+// friends[2] = 'Jay';
+// console.log(friends);
+// // friends = ['Bob', 'Alice'];
+// const firstName = 'Jonas'
+
+// const jonas = [firstName, 'Schmedtmann', 2037 - 1991, 'teacher', friends];
+
+// console.log(jonas);
+
+// // Exercise
+// const calcAge = function (birthYear) {
+//     return 2037 - birthYear;
+// }
+// const years = [1990, 1967, 2002, 2010, 2018];
+// const age1 = calcAge(years[1]);
+// console.log(age1);
+
+// Arrays Basic Operations
+
 const friends = ['Michael', 'Steven', 'Peter'];
+
+// Add elements
 console.log(friends);
 
-const y = new Array(1991, 1984, 2008, 2020);
-
-console.log(friends[2]);
-console.log(friends.length);
-console.log(friends[friends.length - 1]);
-
-friends[2] = 'Jay';
+friends.unshift('John');
 console.log(friends);
-// friends = ['Bob', 'Alice'];
-const firstName = 'Jonas'
 
-const jonas = [firstName, 'Schmedtmann', 2037 - 1991, 'teacher', friends];
+// Remove elements
 
-console.log(jonas);
+const popped = friends.pop(); //last
+console.log(popped);
+console.log(friends);
 
-// Exercise
-const calcAge = function (birthYear) {
-    return 2037 - birthYear;
-}
-const years = [1990, 1967, 2002, 2010, 2018];
-const age1 = calcAge(years[1]);
-console.log(age1);
+friends.shift(); //First
+console.log(friends);
+
