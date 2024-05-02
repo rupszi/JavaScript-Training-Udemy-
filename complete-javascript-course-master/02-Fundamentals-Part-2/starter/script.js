@@ -125,3 +125,9 @@ console.log(friends[2]);
 console.log(friends.length);
 console.log(friends[friends.length - 1]);
 
+friends[2] = 'Jay';
+console.log(friends);
+// friends = ['Bob', 'Alice'];
+
+
+
