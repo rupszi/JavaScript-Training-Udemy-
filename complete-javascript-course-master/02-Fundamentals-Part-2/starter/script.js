@@ -142,22 +142,27 @@
 // const age1 = calcAge(years[1]);
 // console.log(age1);
 
-// Arrays Basic Operations
+// // Arrays Basic Operations
 
-const friends = ['Michael', 'Steven', 'Peter'];
+// const friends = ['Michael', 'Steven', 'Peter'];
 
-// Add elements
-console.log(friends);
+// // Add elements
+// console.log(friends);
 
-friends.unshift('John');
-console.log(friends);
+// friends.unshift('John');
+// console.log(friends);
 
-// Remove elements
+// // Remove elements
 
-const popped = friends.pop(); //last
-console.log(popped);
-console.log(friends);
+// const popped = friends.pop(); //last
+// console.log(popped);
+// console.log(friends);
 
-friends.shift(); //First
-console.log(friends);
+// friends.shift(); //First
+// console.log(friends);
 
+// console.log(friends.indexOf('Steven'));
+// console.log(friends.indexOf('Bob')); //returns -1 as this element is not existing in the array
+
+// console.log(friends.includes('Steven'));
+// console.log(friends.includes('Bob'));
