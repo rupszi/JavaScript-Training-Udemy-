@@ -199,6 +199,12 @@ const interestedIn = prompt('What do you want to know about Jonas? Choose betwee
 console.log(interestedIn);
 console.log(jonas[interestedIn]);
 
+if (jonas[interestedIn]) {
+    console.log(jonas[interestedIn]);
+} else {
+    console.log('Wrong request!')
+}
+
 
 
 
