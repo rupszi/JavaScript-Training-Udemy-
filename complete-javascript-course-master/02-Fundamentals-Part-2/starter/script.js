@@ -205,6 +205,13 @@ if (jonas[interestedIn]) {
     console.log('Wrong request!')
 }
 
+jonas.location = 'Portugal';
+jonas['twitter'] = '@jonasschmedtman';
+console.log(jonas);
 
+
+//Challenge
+
+console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend called ${jonas.friends[0]}`);
 
 
