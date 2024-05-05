@@ -227,12 +227,23 @@ const jonas = {
     //     return 2037 - birthYear;
     // }
 
-    calcAge: function () {
-        console.log(this);
-        return 2037 - this.birthYear;
-    }
+    // calcAge: function () {
+    //     console.log(this);
+    //     return 2037 - this.birthYear;
+    // }
 
+
+    calcAge: function () {
+        this.age = 2037 - this.birthYear;
+        return this.age;
+    }
 };
 
 console.log(jonas.calcAge());
+
+console.log(jonas.age);
+console.log(jonas.age);
+console.log(jonas.age);
+
+
 // console.log(jonas['calcAge'](1991));
