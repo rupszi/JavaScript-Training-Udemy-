@@ -246,4 +246,5 @@ console.log(jonas.age);
 console.log(jonas.age);
 
 
-// console.log(jonas['calcAge'](1991));
+// CHALLENGE
+// 'Jonas is a 46 year old teaches, and he has a/no drivers license.'
