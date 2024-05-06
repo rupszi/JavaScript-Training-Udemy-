@@ -265,6 +265,13 @@ const jonasArray = [
     ['Michael', 'Peter', 'Steven']
 ];
 
-for (let a = 0; a <= jonasArray.length - 1; a++) {
-    console.log(jonasArray[a]);
+const types = [];
+
+for (let a = 0; a < jonasArray.length; a++) {
+    // reading from jonas array
+    console.log(jonasArray[a], typeof jonasArray[a]);
+    // writing to jonas array
+    types[a] = typeof jonasArray[a];
 }
+
+console.log(types);
