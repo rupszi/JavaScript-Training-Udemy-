@@ -249,3 +249,10 @@
 // } else {
 //     console.log(`they have the same BMI.`);
 // }
+
+// FOR loop practice
+// for loop keeps running while condition is TRUE
+
+for (let rep = 1; rep <= 10; rep += 1) {
+    console.log(`Lifting weights repetition ${rep} 🏋🏻‍♀️`);
+}
