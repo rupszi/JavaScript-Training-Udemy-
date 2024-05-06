@@ -256,3 +256,15 @@
 // for (let rep = 1; rep <= 10; rep += 1) {
 //     console.log(`Lifting weights repetition ${rep} 🏋🏻‍♀️`);
 // }
+
+const jonasArray = [
+    'Jonas',
+    'Schmedtmann',
+    2037 - 1991,
+    'teacher',
+    ['Michael', 'Peter', 'Steven']
+];
+
+for (let a = 0; a <= jonasArray.length - 1; a++) {
+    console.log(jonasArray[a]);
+}
