@@ -289,7 +289,8 @@
 
 for (let a = 0; a < jonasArray.length; a++) {
     // reading from jonas array
-    console.log(jonasArray[a], typeof jonasArray[a]);
+    if (typeof jonasArray[a] !== 'string') continue;
+
     // writing to jonas array
     // types[a] = typeof jonasArray[a];
     types.push(typeof jonasArray[a]);
