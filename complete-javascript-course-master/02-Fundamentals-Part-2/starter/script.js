@@ -257,13 +257,13 @@
 //     console.log(`Lifting weights repetition ${rep} 🏋🏻‍♀️`);
 // }
 
-// const jonasArray = [
-//     'Jonas',
-//     'Schmedtmann',
-//     2037 - 1991,
-//     'teacher',
-//     ['Michael', 'Peter', 'Steven']
-// ];
+const jonasArray = [
+    'Jonas',
+    'Schmedtmann',
+    2037 - 1991,
+    'teacher',
+    ['Michael', 'Peter', 'Steven']
+];
 
 // const types = [];
 
@@ -287,11 +287,20 @@
 
 // continue and break statement
 
+console.log('---ONLY STRINGS---');
 for (let a = 0; a < jonasArray.length; a++) {
     // reading from jonas array
     if (typeof jonasArray[a] !== 'string') continue;
-
     // writing to jonas array
     // types[a] = typeof jonasArray[a];
-    types.push(typeof jonasArray[a]);
+    console.log(jonasArray[a], typeof jonasArray[a]);
+}
+
+console.log('---BREAK WITH NUMBER---');
+for (let a = 0; a < jonasArray.length; a++) {
+    // reading from jonas array
+    if (typeof jonasArray[a] === 'number') break;
+    // writing to jonas array
+    // types[a] = typeof jonasArray[a];
+    console.log(jonasArray[a], typeof jonasArray[a]);
 }
