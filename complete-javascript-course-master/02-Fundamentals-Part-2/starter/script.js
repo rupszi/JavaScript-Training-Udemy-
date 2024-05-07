@@ -271,7 +271,9 @@ for (let a = 0; a < jonasArray.length; a++) {
     // reading from jonas array
     console.log(jonasArray[a], typeof jonasArray[a]);
     // writing to jonas array
-    types[a] = typeof jonasArray[a];
+    // types[a] = typeof jonasArray[a];
+    types.push(typeof jonasArray[a]);
 }
 
 console.log(types);
+
