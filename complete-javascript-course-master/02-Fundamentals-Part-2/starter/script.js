@@ -257,13 +257,13 @@
 //     console.log(`Lifting weights repetition ${rep} 🏋🏻‍♀️`);
 // }
 
-const jonasArray = [
-    'Jonas',
-    'Schmedtmann',
-    2037 - 1991,
-    'teacher',
-    ['Michael', 'Peter', 'Steven']
-];
+// const jonasArray = [
+//     'Jonas',
+//     'Schmedtmann',
+//     2037 - 1991,
+//     'teacher',
+//     ['Michael', 'Peter', 'Steven']
+// ];
 
 // const types = [];
 
@@ -287,20 +287,40 @@ const jonasArray = [
 
 // continue and break statement
 
-console.log('---ONLY STRINGS---');
-for (let a = 0; a < jonasArray.length; a++) {
-    // reading from jonas array
-    if (typeof jonasArray[a] !== 'string') continue;
-    // writing to jonas array
-    // types[a] = typeof jonasArray[a];
-    console.log(jonasArray[a], typeof jonasArray[a]);
+// console.log('---ONLY STRINGS---');
+// for (let a = 0; a < jonasArray.length; a++) {
+//     // reading from jonas array
+//     if (typeof jonasArray[a] !== 'string') continue;
+//     // writing to jonas array
+//     // types[a] = typeof jonasArray[a];
+//     console.log(jonasArray[a], typeof jonasArray[a]);
+// }
+
+// console.log('---BREAK WITH NUMBER---');
+// for (let a = 0; a < jonasArray.length; a++) {
+//     // reading from jonas array
+//     if (typeof jonasArray[a] === 'number') break;
+//     // writing to jonas array
+//     // types[a] = typeof jonasArray[a];
+//     console.log(jonasArray[a], typeof jonasArray[a]);
+// }
+
+const jonasArray = [
+    'Jonas',
+    'Schmedtmann',
+    2037 - 1991,
+    'teacher',
+    ['Michael', 'Peter', 'Steven']
+];
+
+// how to loop backward
+for (let a = jonasArray.length; a >= 0; a--) {
+    console.log(jonasArray[a]);
 }
 
-console.log('---BREAK WITH NUMBER---');
-for (let a = 0; a < jonasArray.length; a++) {
-    // reading from jonas array
-    if (typeof jonasArray[a] === 'number') break;
-    // writing to jonas array
-    // types[a] = typeof jonasArray[a];
-    console.log(jonasArray[a], typeof jonasArray[a]);
+for (let exercise = 1; exercise < 4; exercise++) {
+    console.log(`---- Starting exercise ${exercise} -----`);
+    for (let rep = 1; rep < 6; rep++) {
+        console.log(`Lifting weight repetition ${rep}`);
+    }
 }
