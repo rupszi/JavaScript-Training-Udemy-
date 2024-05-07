@@ -257,15 +257,35 @@
 //     console.log(`Lifting weights repetition ${rep} 🏋🏻‍♀️`);
 // }
 
-const jonasArray = [
-    'Jonas',
-    'Schmedtmann',
-    2037 - 1991,
-    'teacher',
-    ['Michael', 'Peter', 'Steven']
-];
+// const jonasArray = [
+//     'Jonas',
+//     'Schmedtmann',
+//     2037 - 1991,
+//     'teacher',
+//     ['Michael', 'Peter', 'Steven']
+// ];
 
-const types = [];
+// const types = [];
+
+// for (let a = 0; a < jonasArray.length; a++) {
+//     // reading from jonas array
+//     console.log(jonasArray[a], typeof jonasArray[a]);
+//     // writing to jonas array
+//     // types[a] = typeof jonasArray[a];
+//     types.push(typeof jonasArray[a]);
+// }
+
+// console.log(types);
+
+// const years = [1991, 2007, 1969, 2020];
+// const age = [];
+
+// for (let a = 0; a < years.length; a++) {
+//     age.push(2037 - years[a]);
+//     console.log(age);
+// }
+
+// continue and break statement
 
 for (let a = 0; a < jonasArray.length; a++) {
     // reading from jonas array
@@ -274,6 +294,3 @@ for (let a = 0; a < jonasArray.length; a++) {
     // types[a] = typeof jonasArray[a];
     types.push(typeof jonasArray[a]);
 }
-
-console.log(types);
-
